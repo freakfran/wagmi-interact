@@ -1,9 +1,7 @@
-import Image from "next/image";
+import WalletOptions from "@/components/walletOption/wallet-options";
 
 export default function Home() {
     return (
-        <div>
-            Hello world
-        </div>
+        <WalletOptions/>
     );
 }
