@@ -1,6 +1,6 @@
 import {createConfig, http} from 'wagmi'
 import {mainnet, sepolia} from 'wagmi/chains'
-import {injected, metaMask, safe, walletConnect} from 'wagmi/connectors'
+import {injected, walletConnect} from 'wagmi/connectors'
 
 const projectId = process.env.WALLECT_CONNECT_PROJECT_ID!;
 

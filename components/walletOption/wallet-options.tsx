@@ -2,7 +2,6 @@
 
 import {useAccount, useBalance, useConnect, useDisconnect} from "wagmi";
 import ConnectButton from "@/components/walletOption/connect-button";
-import DisconnectBtn from "@/components/walletOption/disconnect-btn";
 import AccountCard from "@/components/walletOption/account-card";
 
 export default function WalletOptions() {
